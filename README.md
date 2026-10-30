@@ -68,19 +68,19 @@ Como en cualquier investigación de Gotham, primero recolectamos las coordenadas
 
 ## 🦇 La Batfamilia · Integrantes y roles
 
-Todo gran plan de estudio necesita un equipo que lo sostenga. Estos son los integrantes del equipo que conforman la Batfamilia para este repositorio, con responsabilidades distribuidas para cada clase:
+Todo gran plan de estudio necesita un equipo que lo sostenga. Estos son los integrantes del equipo que conforman la Batfamilia para este repositorio y las clases asignadas a cada uno:
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=18&amp;duration=2400&amp;pause=1300&amp;color=FACC15&amp;background=0D1117&amp;center=true&amp;vCenter=true&amp;width=860&amp;height=52&amp;lines=Agente+01+%E2%80%BA+Detective+del+C%C3%B3digo+Oscuro+%E2%80%BA+Dereck+Shair;Agente+02+%E2%80%BA+Arquitecto+de+la+Baticueva+Digital+%E2%80%BA+Brishy+Anahy;Agente+03+%E2%80%BA+Caballero+del+Backend+%E2%80%BA+Fher+Dorian;Agente+04+%E2%80%BA+Guardi%C3%A1n+Nocturno+del+Testing+%E2%80%BA+Antony+Sebastian;Agente+05+%E2%80%BA+Or%C3%A1culo+del+Consumo+%E2%80%BA+Karina+Paola" width="100%" alt="Integrantes de la Batfamilia">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=18&amp;duration=2400&amp;pause=1300&amp;color=FACC15&amp;background=0D1117&amp;center=true&amp;vCenter=true&amp;width=860&amp;height=52&amp;lines=Agente+01+%E2%80%BA+Dereck+Paredes+%E2%80%BA+Punto.java;Agente+02+%E2%80%BA+Antony+Casillas+%E2%80%BA+Zona.java;Agente+03+%E2%80%BA+Fher+Dorian+%E2%80%BA+Sistemazonas.java;Agente+04+%E2%80%BA+Brishy+Ashanga+%E2%80%BA+Main.java;Agente+05+%E2%80%BA+Karina+Sanchez+%E2%80%BA+Consola.java" width="100%" alt="Integrantes de la Batfamilia">
 </div>
 
-| N.º | BatIntegrante | BatOperaciones | BatObjetivo y Componente |
+| N.º | BatIntegrante | BatOperaciones | Componente / Clase Asignada |
 | :---: | :--- | :--- | :--- |
-| **1** | **Paredes Acosta Dereck Shair** | **Detective del Código Oscuro · Investigar · Analista** | Diseñar la lógica geométrica inicial y coordinar la estructura de la clase **`Punto.java`**. |
-| **2** | **Ashanga Yumbo Brishy Anahy** | **Arquitecto de la Baticueva Digital · Preparar · Diseñar** | Diseñar el modelo de las entidades circulares e implementar la clase **`Zona.java`**. |
-| **3** | **Calderon Carvajal Fher Dorian** | **Caballero del Backend · Construir · Programar** | Desarrollar la lógica de gestión de colecciones y superposiciones en la clase **`Sistemazonas.java`**. |
-| **4** | **Casillas Ochoa Antony Sebastian** | **Guardián Nocturno del Testing · Inspeccionar · Probar** | Programar la interacción y lectura de datos validados en la clase **`Consola.java`**. |
-| **5** | **Sanchez Bastidas Karina Paola** | **Oráculo del Conocimiento · Archivar · Documentar** | Orquestar la ejecución general en el **`Main.java`**, redactar documentación técnica y gestionar casos de prueba. |
+| **1** | **Paredes Acosta Dereck Shair** | **Detective del Código Oscuro · Modelar** | Implementación de la clase **`Punto.java`** (coordenadas cartesianas y distancias). |
+| **2** | **Casillas Ochoa Antony Sebastian** | **Guardián Nocturno del Testing · Estructurar** | Desarrollo de la clase **`Zona.java`** (geometría, radios y clasificación de puntos). |
+| **3** | **Calderon Carvajal Fher Dorian** | **Caballero del Backend · Construir** | Lógica de gestión de colecciones y superposiciones en **`Sistemazonas.java`**. |
+| **4** | **Ashanga Yumbo Brishy Anahy** | **Arquitecto de la Baticueva Digital · Orquestar** | Coordinación del flujo principal y despliegue en **`Main.java`**. |
+| **5** | **Sanchez Bastidas Karina Paola** | **Oráculo del Consumo · Validar** | Encapsulamiento de entradas por teclado e interfaz de **`Consola.java`**. |
 
 **La mejor herramienta de la Baticueva sigue siendo trabajar juntos.**
 
