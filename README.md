@@ -32,9 +32,9 @@
 
 **Bienvenidos al centro de operaciones de la Baticueva.**<br>
 Este repositorio contiene la solución oficial del **Grupo 1** para la Prueba Práctica Integradora de POO en Java.<br>
-Implementamos el control inteligente de zonas circulares aplicando encapsulamiento estricto, clases de dominio especializadas y una arquitectura robusta.
+Implementamos el control inteligente de zonas circulares aplicando encapsulamiento estricto, clases de dominio especializadas y una arquitectura robusta con gestión de consola integrada.
 
-**Cinco mentes. Un repositorio. Cero errores de compilación.**
+**Cinco agentes. Un repositorio. Cero errores de compilación.**
 
 [🌃 Expediente](#-el-expediente--de-qué-trata-este-repositorio) ·
 [🦇 Batfamilia](#-la-batfamilia--integrantes-y-roles) ·
@@ -58,29 +58,29 @@ Como en cualquier investigación de Gotham, primero recolectamos las coordenadas
 
 ### 🎯 Objetivos de la misión
 
-- **Modelar clases de dominio robustas**: `Punto`, `Zona`, `Sistemazonas` y `Main`.
+- **Modelar clases de dominio robustas**: `Punto`, `Zona`, `Sistemazonas`, `Consola` y `Main`.
 - **Gestionar geometrías circulares**: Registrar centros $(x, y)$ con radios estrictamente positivos, calcular áreas, perímetros y distancias.
 - **Clasificar puntos y detectar superposiciones**: Determinar si un punto está en el interior, borde o exterior de una zona, e identificar solapamientos entre áreas.
-- **Construir un menú interactivo**: Manejar excepciones, entradas con `Scanner` y validaciones estrictas contra duplicados.
+- **Construir un menú interactivo**: Manejar excepciones, entradas seguras y validaciones estrictas contra duplicados.
 
 > [!TIP]
 > **Lema del equipo:** «Si lo puedes modelar en clases, lo puedes programar».
 
 ## 🦇 La Batfamilia · Integrantes y roles
 
-Todo gran plan de estudio necesita un equipo que lo sostenga. Estos son los integrantes del equipo que conforman la Batfamilia para este repositorio:
+Todo gran plan de estudio necesita un equipo que lo sostenga. Estos son los integrantes del equipo que conforman la Batfamilia para este repositorio, con responsabilidades distribuidas para cada clase:
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=18&amp;duration=2400&amp;pause=1300&amp;color=FACC15&amp;background=0D1117&amp;center=true&amp;vCenter=true&amp;width=860&amp;height=52&amp;lines=Agente+01+%E2%80%BA+Detective+del+C%C3%B3digo+Oscuro+%E2%80%BA+Dereck+Shair;Agente+02+%E2%80%BA+Arquitecto+de+la+Baticueva+Digital+%E2%80%BA+Brishy+Anahy;Agente+03+%E2%80%BA+Caballero+del+Backend+%E2%80%BA+Fher+Dorian;Agente+04+%E2%80%BA+Guardi%C3%A1n+Nocturno+del+Testing+%E2%80%BA+Antony+Sebastian;Agente+05+%E2%80%BA+Or%C3%A1culo+del+Conocimiento+%E2%80%BA+Karina+Paola" width="100%" alt="Integrantes de la Batfamilia">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=18&amp;duration=2400&amp;pause=1300&amp;color=FACC15&amp;background=0D1117&amp;center=true&amp;vCenter=true&amp;width=860&amp;height=52&amp;lines=Agente+01+%E2%80%BA+Detective+del+C%C3%B3digo+Oscuro+%E2%80%BA+Dereck+Shair;Agente+02+%E2%80%BA+Arquitecto+de+la+Baticueva+Digital+%E2%80%BA+Brishy+Anahy;Agente+03+%E2%80%BA+Caballero+del+Backend+%E2%80%BA+Fher+Dorian;Agente+04+%E2%80%BA+Guardi%C3%A1n+Nocturno+del+Testing+%E2%80%BA+Antony+Sebastian;Agente+05+%E2%80%BA+Or%C3%A1culo+del+Consumo+%E2%80%BA+Karina+Paola" width="100%" alt="Integrantes de la Batfamilia">
 </div>
 
-| N.º | BatIntegrante | BatOperaciones | BatObjetivo |
+| N.º | BatIntegrante | BatOperaciones | BatObjetivo y Componente |
 | :---: | :--- | :--- | :--- |
-| **1** | **Paredes Acosta Dereck Shair** | **Detective del Código Oscuro · Investigar · Analista** | Reunir las pistas iniciales: requerimientos, reglas de negocio, validaciones y diseño inicial de clases. |
-| **2** | **Ashanga Yumbo Brishy Anahy** | **Arquitecto de la Baticueva Digital · Preparar · Diseñar** | Diseñar la arquitectura de clases (`Punto`, `Zona`, `Sistemazonas`, `Main`) y estructurar el repositorio GitHub. |
-| **3** | **Calderon Carvajal Fher Dorian** | **Caballero del Backend · Construir · Programar** | Implementar los métodos de cálculo geométrico (distancias, áreas, perímetros) y la lógica de negocio en Java. |
-| **4** | **Casillas Ochoa Antony Sebastian** | **Guardián Nocturno del Testing · Inspeccionar · Probar** | Comprobar el código con los cinco casos de prueba obligatorios, manejo de errores y validación de límites. |
-| **5** | **Sanchez Bastidas Karina Paola** | **Oráculo del Conocimiento · Archivar · Documentar** | Redactar la documentación técnica en `docs/` (`analisis.md`, `casos_prueba.md`) y el reporte de commits. |
+| **1** | **Paredes Acosta Dereck Shair** | **Detective del Código Oscuro · Investigar · Analista** | Diseñar la lógica geométrica inicial y coordinar la estructura de la clase **`Punto.java`**. |
+| **2** | **Ashanga Yumbo Brishy Anahy** | **Arquitecto de la Baticueva Digital · Preparar · Diseñar** | Diseñar el modelo de las entidades circulares e implementar la clase **`Zona.java`**. |
+| **3** | **Calderon Carvajal Fher Dorian** | **Caballero del Backend · Construir · Programar** | Desarrollar la lógica de gestión de colecciones y superposiciones en la clase **`Sistemazonas.java`**. |
+| **4** | **Casillas Ochoa Antony Sebastian** | **Guardián Nocturno del Testing · Inspeccionar · Probar** | Programar la interacción y lectura de datos validados en la clase **`Consola.java`**. |
+| **5** | **Sanchez Bastidas Karina Paola** | **Oráculo del Conocimiento · Archivar · Documentar** | Orquestar la ejecución general en el **`Main.java`**, redactar documentación técnica y gestionar casos de prueba. |
 
 **La mejor herramienta de la Baticueva sigue siendo trabajar juntos.**
 
@@ -94,5 +94,11 @@ Prueba-POO-Grupo-1/
 ┃ ┣ 📜 Main.java
 ┃ ┣ 📜 Punto.java
 ┃ ┣ 📜 Zona.java
-┃ ┗ 📜 Sistemazonas.java
-┣ 📂 docs
+┃ ┣ 📜 Sistemazonas.java
+┃ ┗ 📜 Consola.java
+┣ 📂 docs/
+┃ ┣ 📜 analisis.md
+┃ ┣ 📜 casos_prueba.md
+┃ ┗ 📜 diagrama_clases.png
+┣ 📜 .gitignore
+┗ 📜 README.md
