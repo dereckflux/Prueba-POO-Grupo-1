@@ -106,3 +106,66 @@ Prueba-POO-Grupo-1/
 ┃ ┗ 📜 diagrama_clases.png
 ┣ 📜 .gitignore
 ┗ 📜 README.md
+## 🧰 El Batcinturón · Requisitos comunes
+
+Cumplimiento estricto de las directrices de la Universidad Técnica de Ambato (Facultad de Ingeniería en Sistemas, Electrónica e Industrial):
+
+- **Encapsulamiento:** Uso de atributos privados, constructores parametrizados y métodos públicos de acceso y modificación.
+- **Métodos funcionales:** Al menos cinco métodos de negocio implementados de forma modular en las clases de dominio.
+- **Validaciones de seguridad:** Control de radios negativos, nombres de zonas duplicados e ingresos de datos erróneos mediante la clase `Consola`.
+- **Evidencias de commits:** Participación verificable de todos los integrantes de la Batfamilia en el control de versiones.
+
+---
+
+## ☕ Zona de descanso · Alfred sirve el café
+
+Hasta el Caballero Oscuro necesita una pausa entre compilaciones. Un pequeño descanso antes de volver a la terminal.
+
+<details>
+<summary><b>🦇 Batman, ¿cuál es tu verdadero superpoder en Java?</b></summary>
+
+<br>
+
+**Compilar un programa con múltiples clases y `Consola.java` separada sin arrojar `NullPointerException` al primer intento.**
+
+Ni toda la fortuna de Wayne Enterprises puede comprar esa satisfacción en plena prueba de 90 minutos.
+
+</details>
+
+<details>
+<summary><b>🤵 Un consejo de Alfred</b></summary>
+
+<br>
+
+—Señor, debería documentar el código antes de hacer el último commit.
+
+—Alfred, Gotham necesita este diagrama de clases ya mismo.
+
+**A la mañana siguiente, el profesor revisaba los casos de prueba con una sonrisa.**
+
+Esa noche nació una nueva regla: el `README` completo es parte del plan.
+
+</details>
+
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=19&amp;duration=2600&amp;pause=1500&amp;color=FACC15&amp;background=0D1117&amp;center=true&amp;vCenter=true&amp;width=860&amp;height=56&amp;lines=Gotham+puede+dormir.+El+codigo+ya+compila.;Primero+lo+dise%C3%B1amos.+Luego+lo+instanciamos.;Y+si+algo+falla%2C+lo+repasamos+en+el+main." width="100%" alt="Frases animadas de cierre">
+
+🦇
+
+*No hace falta una capa para aprobar POO.*<br>
+*Hace falta encapsulamiento, clases limpias y trabajo en equipo.*
+
+**La próxima respuesta puede estar en ese método que todavía no refactorizas.**
+
+<sub>Un plan con estrategia, diseño orientado a objetos y espíritu de detective.</sub>
+
+<br>
+
+[⬆️ Volver a la Baticueva](#inicio)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:000000,45:18181B,100:CA8A04&amp;height=130&amp;section=footer" width="100%" alt="Ondas animadas de cierre">
+
+</div>
