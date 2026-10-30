@@ -19,46 +19,50 @@ Para algunas pruebas se utilizó la opción **10**, que permite cargar las zonas
 
 Además de revisar los resultados que muestra el programa, se realizaron algunos cálculos manuales para comprobar que las distancias y medidas obtenidas fueran correctas.
 
-**1. Distancia del punto (5,2) al centro de Z1**
+### 1. Distancia del punto (5,2) al centro de Z1
 
 Aplicando la fórmula de distancia entre dos puntos:
 
-\[
-d=\sqrt{(5-0)^2+(2-0)^2}
-\]
+$$
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+$$
 
-\[
-d=\sqrt{25+4}=\sqrt{29}\approx 5.385
-\]
+$$
+d = \sqrt{(5-0)^2 + (2-0)^2}
+$$
 
-Como 5.385 es menor que el radio de Z1 (7), el punto se encuentra en su interior.
+$$
+d = \sqrt{25 + 4} = \sqrt{29} \approx 5.385
+$$
 
-**2. Distancia del punto (5,2) al centro de Z2**
+Como $5.385$ es menor que el radio de Z1 ($7$), el punto se encuentra en su **interior**.
 
-\[
-d=\sqrt{(5-10)^2+(2-0)^2}
-\]
+### 2. Distancia del punto (5,2) al centro de Z2
 
-\[
-d=\sqrt{25+4}=\sqrt{29}\approx 5.385
-\]
+$$
+d = \sqrt{(5-10)^2 + (2-0)^2}
+$$
 
-En este caso, la distancia también es menor que el radio de Z2 (6), por lo que el punto igualmente se encuentra en su interior.
+$$
+d = \sqrt{25 + 4} = \sqrt{29} \approx 5.385
+$$
 
-**3. Cálculo del área y perímetro de Z1**
+En este caso, la distancia también es menor que el radio de Z2 ($6$), por lo que el punto igualmente se encuentra en su **interior**.
 
-Para obtener el área se utilizó la fórmula \(A=\pi r^2\), mientras que para el perímetro se aplicó \(P=2\pi r\).
+### 3. Cálculo del área y perímetro de Z1
 
-\[
-A=\pi(7)^2\approx 153.94
-\]
+Para obtener el área se utilizó la fórmula $A = \pi r^2$, mientras que para el perímetro se aplicó $P = 2\pi r$.
 
-\[
-P=2\pi(7)\approx 43.98
-\]
+$$
+A = \pi (7)^2 \approx 153.94
+$$
+
+$$
+P = 2\pi (7) \approx 43.98
+$$
 
 Los valores obtenidos coinciden con los que presenta el programa, por lo que se comprobó que los cálculos realizados son correctos.
 
-**Conclusión de las pruebas**
+## Conclusión de las pruebas
 
 Después de ejecutar los ocho casos de prueba, se comprobó que el programa responde correctamente ante las diferentes situaciones planteadas. También se verificó que los cálculos, las validaciones de datos y la representación gráfica funcionan de acuerdo con lo esperado. Las pruebas permitieron revisar tanto los casos normales como aquellos en los que el usuario introduce información incorrecta o repetida.
