@@ -59,12 +59,14 @@ Como en cualquier investigación de Gotham, primero recolectamos las coordenadas
 ### 🎯 Objetivos de la misión
 
 - **Modelar clases de dominio robustas**: `Punto`, `Zona`, `Sistemazonas`, `Consola` y `Main`.
-- **Gestionar geometrías circulares**: Registrar centros $(x, y)$ con radios estrictamente positivos, calcular áreas, perímetros y distancias.
-- **Clasificar puntos y detectar superposiciones**: Determinar si un punto está en el interior, borde o exterior de una zona, e identificar solapamientos entre áreas.
-- **Construir un menú interactivo**: Manejar excepciones, entradas seguras y validaciones estrictas contra duplicados.
+- **Gestionar geometrías circulares**: Registrar centros $(x, y)$ con radios estrictamente positivos, calcular áreas, perímetros y distancias[cite: 22].
+- **Clasificar puntos y detectar superposiciones**: Determinar si un punto está en el interior, borde o exterior de una zona, e identificar solapamientos entre áreas[cite: 22].
+- **Construir un menú interactivo**: Manejar excepciones, entradas seguras y validaciones estrictas contra duplicados[cite: 20, 22].
 
 > [!TIP]
 > **Lema del equipo:** «Si lo puedes modelar en clases, lo puedes programar».
+
+---
 
 ## 🦇 La Batfamilia · Integrantes y roles
 
@@ -76,13 +78,15 @@ Todo gran plan de estudio necesita un equipo que lo sostenga. Estos son los inte
 
 | N.º | BatIntegrante | BatOperaciones | Componente / Clase Asignada |
 | :---: | :--- | :--- | :--- |
-| **1** | **Paredes Acosta Dereck Shair** | **Detective del Código Oscuro · Modelar** | Implementación de la clase **`Punto.java`** (coordenadas cartesianas y distancias). |
-| **2** | **Casillas Ochoa Antony Sebastian** | **Guardián Nocturno del Testing · Estructurar** | Desarrollo de la clase **`Zona.java`** (geometría, radios y clasificación de puntos). |
-| **3** | **Calderon Carvajal Fher Dorian** | **Caballero del Backend · Construir** | Lógica de gestión de colecciones y superposiciones en **`Sistemazonas.java`**. |
-| **4** | **Ashanga Yumbo Brishy Anahy** | **Arquitecto de la Baticueva Digital · Orquestar** | Coordinación del flujo principal y despliegue en **`Main.java`**. |
+| **1** | **Paredes Acosta Dereck Shair** | **Detective del Código Oscuro · Modelar** | Implementación de la clase **`Punto.java`** (coordenadas cartesianas y distancias)[cite: 22]. |
+| **2** | **Casillas Ochoa Antony Sebastian** | **Guardián Nocturno del Testing · Estructurar** | Desarrollo de la clase **`Zona.java`** (geometría, radios y clasificación de puntos)[cite: 22]. |
+| **3** | **Calderon Carvajal Fher Dorian** | **Caballero del Backend · Construir** | Lógica de gestión de colecciones y superposiciones en **`Sistemazonas.java`**[cite: 22]. |
+| **4** | **Ashanga Yumbo Brishy Anahy** | **Arquitecto de la Baticueva Digital · Orquestar** | Coordinación del flujo principal y despliegue en **`Main.java`**[cite: 20, 22]. |
 | **5** | **Sanchez Bastidas Karina Paola** | **Oráculo del Consumo · Validar** | Encapsulamiento de entradas por teclado e interfaz de **`Consola.java`**. |
 
 **La mejor herramienta de la Baticueva sigue siendo trabajar juntos.**
+
+---
 
 ## 🔎 Protocolo de la Baticueva · Clases y fases
 
